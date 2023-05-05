@@ -6,6 +6,8 @@
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server",
+    "sass": "sass",
+    "sass:watch": "sass --watch styles/style.scss  styles/style.css",
     "start": "npm run  --parallel devserver watch:sass",
     "compile:sass": "node sass sass/main.scss css/style.comp.css",
     "concat:css": "concat -o css/style.concat.css css/font-awesome.css css/style.comp.css",
